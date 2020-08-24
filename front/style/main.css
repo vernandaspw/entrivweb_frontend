@@ -1,0 +1,325 @@
+.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  font-family: "poppins";
+}
+
+.navbar a:hover {
+  color: #21bf73;
+}
+
+.navbar .btn {
+  background-color: #21bf73;
+  color: #FFFFFF;
+  font-family: "poppins";
+}
+
+.navbar .dropdown-item {
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .navbar .line {
+    background: white;
+    width: 25px;
+    height: 2px;
+    margin: 3px;
+  }
+  .navbar a {
+    color: #FFFFFF;
+    font-family: "poppins";
+  }
+  .navbar a:hover {
+    color: #21bf73;
+  }
+  .navbar .nav-link {
+    text-align: center;
+  }
+  .navbar .btn {
+    margin: auto;
+  }
+  .navbar .navbar-toggler {
+    border-color: #21bf73;
+    border-radius: 150px;
+    background-color: #21bf73;
+  }
+  .navbar .collapse {
+    background-color: #103300;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+header {
+  padding: 210px 0 242px;
+  margin-top: -70px;
+  background-image: url(/front/images/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header .btn {
+  color: #FFFFFF;
+  background-color: #21bf73;
+}
+
+header h1,
+header p {
+  color: #FFFFFF;
+}
+
+main .section-stats {
+  margin-top: -50px;
+}
+
+main .section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+  border-radius: 8px 150px 8px 150px;
+}
+
+main .section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+main .section-stats p {
+  font-size: 20px;
+  font-weight: light;
+  margin-left: 30px;
+}
+
+@media (max-width: 767.98px) {
+  main .section-stats .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+    border-radius: 8px 150px 8px 150px;
+  }
+  main .section-stats h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  main .section-stats p {
+    font-size: 20px;
+    font-weight: light;
+    margin-left: 30px;
+  }
+}
+
+main .section-popular {
+  min-height: 540px;
+  background-color: #103300;
+  margin-top: -64px;
+  margin-bottom: -230px;
+}
+
+main .section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+main .section-popular .section-popular-heading h2,
+main .section-popular .section-popular-heading p {
+  color: #FFFFFF;
+}
+
+main .section-popular .section-popular-heading h2 {
+  font-family: "poppins";
+  font-weight: bold;
+}
+
+main .section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+main .section-popular-content .section-popular-travel .card-travel .travel-daerah {
+  font-size: 18px;
+}
+
+main .section-popular-content .section-popular-travel .card-travel .travel-lokasi {
+  font-size: 25px;
+}
+
+main .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
+  background-color: #21bf73;
+}
+
+main .section-popular-content .section-popular-travel .card-travel .travel-button a {
+  color: white;
+}
+
+main .section-testimoni-heading {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+main .section-testimoni-heading h2 {
+  font-family: "poppins";
+}
+
+main .section-content {
+  padding-bottom: 60px;
+}
+
+main .section-content h3 {
+  font-family: "poppins";
+  font-size: 20px;
+}
+
+main .section-content p {
+  font-weight: lighter;
+}
+
+main .section-content .card {
+  min-height: 180px;
+  border-radius: 8px;
+}
+
+.detail-view {
+  background-image: url(/front/images/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+  background-attachment: fixed;
+  width: auto;
+  padding-bottom: 60px;
+}
+
+.detail-view .card {
+  max-width: 1000px;
+  margin-top: 40px;
+  border-radius: 15px;
+  margin-bottom: -10px;
+}
+
+.detail-view .view-header {
+  font-family: "poppins";
+}
+
+.detail-view .view-content {
+  font-family: "roboto";
+}
+
+.detail-view .view-informasi {
+  font-family: "roboto";
+}
+
+.detail-view .view-informasi td {
+  padding: 2px;
+}
+
+.detail-view .view-anggota {
+  font-family: "roboto";
+}
+
+.detail-view .view-anggota td {
+  padding: 2px;
+}
+
+.detail-view .view-anggota td img {
+  margin: 3px;
+}
+
+.detail-view .view-anggota .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.detail-view .btn {
+  display: block;
+}
+
+.detail-view .btn-hijau {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.detail-view .btn-hijau .btn {
+  background-color: #21bf73;
+  font-family: "roboto";
+  color: #FFFFFF;
+}
+
+.detail-view .btn-abu {
+  margin-bottom: -10px;
+}
+
+.detail-view .btn-abu .btn {
+  background-color: #d4d4d4;
+  font-family: "roboto";
+  color: #FFFFFF;
+}
+
+.checkout .detail-harga td {
+  padding: 2px;
+}
+
+.checkout .payments .bank-item img {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-top: 15px;
+}
+
+.checkout .payments .bank-item h3 {
+  font-size: 18pxs;
+  margin-bottom: 0;
+}
+
+.checkout .payments .bank-item p {
+  margin-bottom: 0;
+}
+
+.checkout .payments .bank-item .content {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.checkout .btn-add-now {
+  background-color: #21bf73;
+  color: #FFFFFF;
+}
+
+.checkout .btn-sudahbayar {
+  margin-bottom: 5px;
+  background-color: #21bf73;
+  color: #FFFFFF;
+}
+
+.checkout .btn-batalkan {
+  background-color: #d4d4d4;
+  color: #FFFFFF;
+}
+
+.sukses img {
+  width: 320px;
+  height: 306px;
+}
+
+.sukses .btn-sukses {
+  background-color: #21bf73;
+  width: 150px;
+  color: #FFFFFF;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */

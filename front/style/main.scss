@@ -1,0 +1,374 @@
+// color==========
+$bggreen: #103300;
+$green: #21bf73;
+$white: #FFFFFF;
+$black: #000000;
+$grey: #d4d4d4;
+// font=========
+$fontjudul: "poppins";
+$fontbody: "roboto";
+
+// =====
+.navbar {
+    transition: 0.5s;
+    transition-timing-function: linear;
+
+    img {
+        height: 30px;
+    }
+
+    a {
+        color: $white;
+        font-family: $fontjudul;
+
+        &:hover {
+            color: $green;
+        }
+    }
+
+
+    .btn {
+        background-color: $green;
+        color: $white;
+        font-family: $fontjudul;
+    }
+
+    .dropdown-item {
+        color: $black;
+    }
+
+    @media (max-width: 767.98px) {
+        .line {
+            background: white;
+            width: 25px;
+            height: 2px;
+            margin: 3px;
+        }
+
+        a {
+            color: $white;
+            font-family: $fontjudul;
+
+            &:hover {
+                color: $green;
+            }
+        }
+
+        .nav-link {
+            text-align: center;
+        }
+
+        .btn {
+            margin: auto;
+        }
+
+        .navbar-toggler {
+            border-color: $green;
+            border-radius: 150px;
+            background-color: $green;
+
+        }
+
+        .collapse {
+            background-color: $bggreen;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+    }
+
+
+
+}
+
+header {
+    .btn {
+        color: $white;
+        background-color: $green;
+    }
+
+    h1,
+    p {
+        color: $white;
+
+    }
+
+    padding: 210px 0 242px;
+    margin-top: -70px;
+    background-image: url(/front/images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    .section-stats {
+
+        margin-top: -50px;
+
+        .stats-detail {
+            padding-top: 15px;
+            background-color: #fff;
+            padding-left: 40px;
+            border-radius: 8px 150px 8px 150px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+            margin-left: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: light;
+            margin-left: 30px;
+        }
+
+        @media (max-width: 767.98px) {
+            .stats-detail {
+                padding-top: 15px;
+                background-color: #fff;
+                padding-left: 40px;
+                border-radius: 8px 150px 8px 150px;
+            }
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 0;
+                margin-left: 10px;
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: light;
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .section-popular {
+        min-height: 540px;
+        background-color: $bggreen;
+        margin-top: -64px;
+        margin-bottom: -230px;
+
+        .section-popular-heading {
+            margin-top: 150px;
+
+            h2,
+            p {
+                color: $white;
+            }
+
+            h2 {
+                font-family: $fontjudul;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .section-popular-content {
+        .section-popular-travel {
+            .card-travel {
+                min-height: 380px;
+                background-color: black;
+                color: white;
+                padding: 30px;
+                background-size: cover;
+                margin-bottom: 20px;
+
+                .travel-daerah {
+                    font-size: 18px;
+                }
+
+                .travel-lokasi {
+                    font-size: 25px;
+                }
+
+                .travel-button {
+                    .btn-travel-details {
+                        background-color: $green;
+                    }
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-testimoni-heading {
+        padding-top: 100px;
+        padding-bottom: 30px;
+
+        h2 {
+            font-family: $fontjudul;
+        }
+    }
+
+    .section-content {
+        padding-bottom: 60px;
+
+        h3 {
+            font-family: $fontjudul;
+            font-size: 20px;
+
+        }
+
+        p {
+            font-weight: lighter;
+        }
+
+        .card {
+            min-height: 180px;
+            border-radius: 8px;
+        }
+    }
+
+
+}
+
+// Detail=================
+.detail-view {
+    background-image: url(/front/images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+    background-attachment: fixed;
+    width: auto;
+    padding-bottom: 60px;
+
+    .card {
+        max-width: 1000px;
+        margin-top: 40px;
+        border-radius: 15px;
+        margin-bottom: -10px;
+
+    }
+
+    .view-header {
+        font-family: $fontjudul;
+    }
+
+    .view-content {
+        font-family: $fontbody;
+    }
+
+    .view-informasi {
+        font-family: $fontbody;
+
+        td {
+            padding: 2px;
+        }
+    }
+
+    .view-anggota {
+        font-family: $fontbody;
+
+        td {
+            padding: 2px;
+
+            img {
+                margin: 3px;
+            }
+        }
+
+        .member-image {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .btn-hijau {
+        padding-top: 20px;
+        padding-bottom: 5px;
+
+        .btn {
+            background-color: $green;
+            font-family: $fontbody;
+            color: $white;
+        }
+    }
+
+    .btn-abu {
+        .btn {
+            background-color: $grey;
+            font-family: $fontbody;
+            color: $white;
+        }
+
+        margin-bottom: -10px;
+    }
+
+}
+
+// checkout
+.checkout {
+    .detail-harga {
+        td {
+            padding: 2px;
+        }
+    }
+
+    .payments {
+        .bank-item {
+            img {
+                width: 45px;
+                height: 45px;
+                float: left;
+                margin-top: 15px;
+            }
+
+            h3 {
+                font-size: 18pxs;
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .content {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+            }
+        }
+    }
+
+    .btn-add-now {
+        background-color: $green;
+        color: $white;
+    }
+
+    .btn-sudahbayar {
+        margin-bottom: 5px;
+        background-color: $green;
+        color: $white;
+    }
+
+    .btn-batalkan {
+        background-color: $grey;
+        color: $white;
+    }
+}
+
+.sukses {
+    img {
+        width: 320px;
+        height: 306px;
+    }
+
+    .btn-sukses {
+        background-color: $green;
+        width: 150px;
+        color: $white;
+        margin: auto;
+    }
+}
